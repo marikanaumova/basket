@@ -1,0 +1,121 @@
+body {
+    display: flex;
+}
+
+.header {
+    width: 300px;
+    display: flex;
+    align-items: baseline;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+}
+.header p {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.container {
+    margin-left: 120px;
+    display: flex;
+    width: 600px;
+    height: 120px;
+    margin-top: 20px;
+    border: 1px;
+    border-style: solid;
+    padding-bottom: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #e0e0e0;
+}
+.container-body {
+    display: grid;
+    align-content: space-between;
+    height: 120px;
+    padding-left: 20px;
+}
+
+.container-body p {
+    margin: 0;
+    width: 250px;
+}
+
+.container-price {
+    height: 120px;
+}
+
+.container-price p {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.img {
+    height: 120px;
+}
+
+.bask-btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn-add {
+    height: 35px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-del {
+    margin-left: 10px;
+    height: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.icon {
+    padding-right: 5px;
+    height: 20px;
+}
+
+.checkboxes {
+    margin-right: 10px;
+}
+
+.list-cats {
+    list-style: none;
+}
+
+.cat-img {
+    height: 120px;
+    width: 120px;
+}
+
+.cat-name {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.cat-price {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.add-from-recommended {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+
